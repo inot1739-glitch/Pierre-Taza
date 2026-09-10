@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pierretaza.store/sitemap.xml
