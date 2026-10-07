@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Pierre Taza Store</title>
-<meta name="description" content="Contactez Pierre Taza Store pour un devis : téléphone, WhatsApp, adresse à Oued Amlil, Taza.">
-<link rel="canonical" href="https://pierretaza.store/contact.html">
+<title>Réalisations en Pierre de Taza et marbre — Façades, piscines, sols | Pierre Taza Store</title>
+<meta name="description" content="Photos de façades, piscines, sols et escaliers réalisés avec la Pierre de Taza et le marbre de notre magasin à Oued Amlil, Taza.">
+<link rel="canonical" href="https://pierretaza.store/realisations.html">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pierre Taza Store">
-<meta property="og:title" content="Contact — Pierre Taza Store">
-<meta property="og:description" content="Contactez Pierre Taza Store pour un devis : téléphone, WhatsApp, adresse à Oued Amlil, Taza.">
-<meta property="og:url" content="https://pierretaza.store/contact.html">
+<meta property="og:title" content="Réalisations en Pierre de Taza et marbre — Façades, piscines, sols | Pierre Taza Store">
+<meta property="og:description" content="Photos de façades, piscines, sols et escaliers réalisés avec la Pierre de Taza et le marbre de notre magasin à Oued Amlil, Taza.">
+<meta property="og:url" content="https://pierretaza.store/realisations.html">
 <meta property="og:locale" content="fr_MA">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192">
@@ -39,42 +39,44 @@
         <a href="produits/ardoise.html">Ardoise</a>
         </div>
       </div>
-      <a href="realisations.html">Réalisations</a>
-      <a href="contact.html" class="active">Contact</a>
+      <a href="realisations.html" class="active">Réalisations</a>
+      <a href="contact.html">Contact</a>
     </nav>
     <a class="btn btn-primary" href="https://wa.me/212672434770?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9(e)%20par%20la%20Pierre%20de%20Taza." target="_blank" rel="noopener">WhatsApp</a>
     <button class="menu-toggle" aria-label="Ouvrir le menu" id="menuToggle"><span></span></button>
   </div>
 </header>
 <main>
-<div class="wrap breadcrumb"><a href="index.html">Accueil</a> / Contact</div>
-<section class="contact" style="border-top:none;">
-  <div class="wrap contact-grid">
-    <div>
-      <span class="section-tag">Contact</span>
-      <h1 style="font-size:clamp(1.7rem,2.8vw,2.2rem);margin-bottom:24px;">Parlons de votre projet</h1>
-      <dl class="contact-info">
-        <dt>Adresse</dt><dd>Elkhrouba, Ghiata El Gharbia, Oued Amlil, Taza</dd>
-        <dt>Téléphone / WhatsApp</dt><dd><a href="https://wa.me/212672434770" target="_blank" rel="noopener">+212 672 434 770</a></dd>
-        <dt>Email</dt><dd><a href="mailto:Pierretazastore@outlook.com">Pierretazastore@outlook.com</a></dd>
-        <dt>Horaires</dt><dd>Lun&ndash;Sam &middot; 08h00&ndash;12h00 / 14h00&ndash;17h00</dd>
-      </dl>
-    </div>
-    <form id="devisForm" novalidate>
-      <div><label for="name">Nom complet</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-      <div><label for="ville">Ville du chantier</label><input id="ville" name="ville" type="text" autocomplete="address-level2" placeholder="Taza, Fès, Rabat..."></div>
-      <div><label for="produit">Produit souhaité</label>
-        <select id="produit" name="produit">
-          <option>Pierre de Taza beige</option><option>Pierre de Taza grise</option><option>Marbre noir d'Azilal</option><option>Pierre volcanique</option><option>Travertin Volubilis</option><option>Ardoise naturelle</option><option>Je ne sais pas encore</option>
-        </select>
-      </div>
-      <div><label for="msg">Votre projet</label><textarea id="msg" name="message" placeholder="Surface en m², usage (façade, sol, piscine), finition..."></textarea></div>
-      <p id="formError" role="alert" style="color:#9B3B2A;font-size:0.86rem;min-height:1.2em;margin:0;"></p>
-      <button class="btn btn-primary" type="submit" style="align-self:flex-start;">Envoyer sur WhatsApp</button>
-      <p style="font-size:0.8rem;color:var(--grey-blue);margin:0;">Votre demande s'ouvre dans WhatsApp, prête à envoyer. Réponse en général le jour même.</p>
-    </form>
+<div class="wrap breadcrumb"><a href="index.html">Accueil</a> / Réalisations</div>
+<section class="page-hero">
+  <div class="wrap">
+    <span class="section-tag">Portfolio</span>
+    <h1>Réalisations</h1>
+    <p>Un aperçu de projets réalisés avec la pierre de Taza. Façades, piscines, sols et escaliers posés avec nos pierres.</p>
   </div>
 </section>
+<section class="ring-section" aria-label="Galerie des réalisations">
+  <div class="ring-stage" id="ringStage" tabindex="0" aria-roledescription="carrousel" aria-label="Faites glisser pour tourner la galerie. Flèches gauche et droite au clavier.">
+    <div class="ring" id="ring"></div>
+  </div>
+  <div class="wrap">
+    <div class="ring-caption" aria-live="polite"><h2 id="ringTitle"></h2><p id="ringCount"></p></div>
+    <div class="ring-controls">
+      <button class="ring-btn" id="ringPrev" aria-label="Photo précédente">&#8592;</button>
+      <button class="ring-btn" id="ringNext" aria-label="Photo suivante">&#8594;</button>
+    </div>
+    <p class="ring-hint">Glissez avec le doigt ou la souris · touchez la photo du centre pour l'agrandir</p>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <a class="btn btn-primary" href="https://wa.me/212672434770?text=Bonjour%2C%20je%20souhaite%20discuter%20d%27un%20projet." target="_blank" rel="noopener">Discuter de mon projet</a>
+  </div>
+</section>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo agrandie">
+  <button id="lbClose" aria-label="Fermer">&times;</button>
+  <img id="lbImg" alt="">
+</div>
 </main>
 <footer>
   <div class="wrap footer-grid">
@@ -130,22 +132,7 @@
     });
   }
 
-  /* Formulaire de devis -> WhatsApp (GitHub Pages ne peut pas recevoir de formulaire) */
-  (function(){
-    var f=document.getElementById('devisForm'); if(!f) return;
-    f.addEventListener('submit',function(e){
-      e.preventDefault();
-      var v=function(id){return document.getElementById(id).value.trim();};
-      var err=document.getElementById('formError');
-      if(!v('name')){ err.textContent='Indiquez votre nom pour envoyer la demande.'; document.getElementById('name').focus(); return; }
-      err.textContent='';
-      var lines=['Bonjour, je souhaite un devis.','','Nom : '+v('name')];
-      if(v('ville')) lines.push('Ville : '+v('ville'));
-      lines.push('Produit : '+v('produit'));
-      if(v('msg')) lines.push('Projet : '+v('msg'));
-      window.open('https://wa.me/212672434770?text='+encodeURIComponent(lines.join('\n')),'_blank','noopener');
-    });
-  })();
 </script>
+<script src="gallery.js"></script>
 </body>
 </html>
