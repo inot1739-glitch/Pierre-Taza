@@ -248,3 +248,10 @@ a.product-card .swatch-caption h4::after{content:" →";color:var(--brick);}
 /* Grille produits : pas de cases grises vides */
 .product-grid{background:transparent;border:0;gap:1px;}
 .product-grid > .product-card{outline:1px solid var(--line);}
+
+/* Description détaillée des pages produit (SEO) */
+.finish-desc{margin-top:56px;max-width:820px;}
+.finish-desc h2{font-size:clamp(1.3rem,2.4vw,1.7rem);margin-bottom:14px;}
+.finish-desc h3{font-size:1.1rem;margin:26px 0 8px;}
+.finish-desc p{color:var(--charcoal-2);margin:10px 0;max-width:68ch;}
+.finish-desc .finish-links{margin-top:6px;}
