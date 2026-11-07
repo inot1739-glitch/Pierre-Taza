@@ -4,7 +4,7 @@
   var PHOTOS = [
     {src:'assets/products/noir-eclate-azilal.jpg', full:'assets/products/noir-eclate-azilal-full.jpg', title:'Marbre noir d\'Azilal — finition éclatée', bg:'#4A453B,#1E1B15'},
     {src:'assets/products/travertin-volubilis-eclate.jpg', full:'assets/products/travertin-volubilis-eclate-full.jpg', title:'Travertin Volubilis — finition éclatée', bg:'#E7DBB8,#C6B384'},
-    {src:'assets/products/noir-khenifra-eclate.jpg', full:'assets/products/noir-khenifra-eclate-full.jpg', title:'Marbre noir de Khénifra — finition éclatée', bg:'#4A453B,#1E1B15'},
+    {src:'assets/products/noir-khenifra-eclate.jpg', full:'assets/products/noir-khenifra-eclatee-3.jpg', title:'Marbre noir de Khénifra — finition éclatée', bg:'#4A453B,#1E1B15'},
     {src:'assets/products/ardoise-grise-galerie.jpg', title:'Ardoise naturelle grise', bg:'#726F62,#514E43'},
     {src:'assets/products/beige-strie-2.jpg',         title:'Pierre de Taza beige — finition striée', bg:'#DCCFA9,#AE9C71'},
     {src:'assets/products/noir-strie-1.jpg',          title:'Marbre noir d\'Azilal — finition striée',bg:'#4A453B,#1E1B15'},
